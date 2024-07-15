@@ -1,0 +1,33 @@
+#footer-sap{
+   height: 38px;
+   border-top: 1px rgb(230, 230, 230) solid;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+#logo-sap{
+   width: 20px;
+   height: 20px;
+}
+
+#loetras-sap{
+   height: 38px;
+   margin-left: -5px;
+
+}
+
+#text-sap{
+   font-size: 14px !important;
+   color: rgb(230, 230, 230);
+   margin-right: 10px;
+   margin-top: 10px;
+   font-weight: 200;
+}
+
+@media (max-width:400px) {
+   #text-sap{
+      font-size: 12px !important;
+
+   }
+}

@@ -1,0 +1,241 @@
+/* home */
+
+@import "sections/home.css";
+
+/* ------- */
+/* home y articles */
+@import "sections/articles.css";
+
+/* ----- */
+@import "sections/sapiencia.css";
+
+@import "gotham-font/gotham.css";
+@import "text-and-body.css";
+/* @import "navbar.css"; */
+
+@import "paralax.css";
+@import "scroll.css";
+@import "navbar.css";
+
+.break-text{
+    word-wrap: break-word;
+    width: 100%;
+}
+
+.hiden{
+    display: none;
+}
+.show-title-complete:hover .title-cut{
+    display: none;
+}
+.show-title-complete:hover .title-complete{
+    display: block;
+    width: 100%;
+}
+
+.fb_iframe_widget_fluid_desktop, .fb_iframe_widget_fluid_desktop span, .fb_iframe_widget_fluid_desktop iframe {
+            max-width: 100% !important;
+            width: 100% !important;
+ }
+
+/* social fixed */
+#fixedsocial{
+   position: fixed;
+   top: 46%;
+   left: 0;
+   z-index: 12
+}
+
+#fixedsocial a{
+   display: block;
+   margin-bottom: 5px;
+   z-index: 12
+}
+
+#fixedsocial a .social-icon{
+   width: 45px !important;
+   z-index: 12;
+   border:2px solid rgb(227, 227, 227);
+}
+
+
+
+.link:hover{
+   color: var(--purple) !important;
+}
+/* footer */
+
+.none{
+   display: none;
+}
+.tuLogro{
+   border-top: 7px rgb(231, 231, 231) solid;
+   border-bottom: 7px rgb(231, 231, 231) solid;
+   padding-top:  10px;
+   padding-bottom: 10px;
+}
+/* comments */
+.triangle-commnets{
+   clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+   background: var(--green-l);
+   height: 30px;
+   margin-bottom:-1px;
+
+}
+.triangle-commnets-bottom{
+   background: var(--green-l);
+   height: 30px;
+   clip-path: polygon(50% 100%, 0 0, 100% 0);
+   margin-top:-1px;
+}
+
+.fb-comments{
+   /* border:solid 1px rgb(204, 204, 204); */
+   width: 100% !important;
+}
+/* --------------- */
+.boxSNone{
+   box-shadow: none;
+}
+.container-title{
+   padding-top: 180px;
+   padding-bottom: 140px;
+}
+
+.searchCategory:hover{
+   cursor: pointer;
+   color: purple;
+}
+
+.pagination > .active > a,
+.pagination > .active > a:focus,
+.pagination > .active > a:hover,
+.pagination > .active > span,
+.pagination > .active > span:focus,
+.pagination > .active > span:hover {
+   background: var(--purple) !important;
+   border-color: grey !important;
+}
+
+.pagination > li > a,
+.pagination > li > span {
+    color: rgb(69, 69, 69); // use your own color here
+}
+
+#widhwImg{
+   background-size: 800px  400px;
+}
+
+/* contactanos */
+.social-icon{
+   width: 50px !important;
+   border-radius: 10px;
+   margin-left: 5px;
+   margin-right: 5px;
+}
+
+.iframe-maps{
+   width: 500px !important;
+   border-radius: 50px;
+}
+
+.bg-lock{
+   position: fixed;
+   top: 0;
+   left: 0;
+   right:0;
+   bottom: 0;
+   z-index: 20;
+   background: rgba(255, 255, 255, 0.56);
+   display: none;
+}
+
+.btn-light{
+   border: 1px solid rgb(180, 181, 180) !important;
+}
+
+.email-footer-sm{
+   display: none;
+}
+
+.container-title{
+   padding-top: 180px;
+   padding-bottom: 140px;
+}
+
+.logo-n-exito-nosotros{
+   width: 200px;
+}
+.site-footer{
+   background: black;
+}
+.site-footer #email-footer-sm{
+   display: none;
+
+}
+
+
+
+@media (max-width: 1400PX) {
+
+}
+
+@media (max-width: 1200PX) {
+
+}
+
+@media (max-width: 992px) {
+   .container-title{
+      padding-top: 100px;
+      padding-bottom: 80px;
+   }
+}
+
+@media (max-width: 768px) {
+   #fixedsocial{
+      position: fixed;
+      top: 30%;
+      left: 0;
+
+   }
+
+
+
+   #fixedsocial a .social-icon{
+      width: 35px !important;
+
+   }
+}
+
+@media (max-width: 576px) {
+   .logo-n-exito-nosotros{
+      width: 150px;
+   }
+
+   .container2{
+      width: 95%;
+   }
+
+    .card-body{
+        padding: 5px;
+    }
+}
+
+
+@media (max-width: 350px) {
+
+   .site-footer #email-footer-lg{
+      display: none;
+   }
+
+   .site-footer #email-footer-sm{
+      display: block;
+
+   }
+
+}
+
+@media screen and (max-height: 575px){
+#rc-imageselect, .g-recaptcha {transform:scale(0.77);
+-webkit-transform:scale(0.77);transform-origin: ;-webkit-transform-origin: ;}
+}

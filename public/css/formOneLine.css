@@ -1,0 +1,57 @@
+
+
+ .formP .form-control{
+    width: 100%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+    border-bottom: 3px solid var(--bg-gold-b);
+    font-family: 'Mulish', sans-serif;
+    font-size: 20px;
+    padding: 4px;
+    height: 30px;
+    /* border-color: inherit !important; */
+ -webkit-box-shadow: none !important;
+ box-shadow: none !important;
+ background: rgba(245, 245, 244, 0.69);
+}
+
+ .formP .labelInput{
+    font-family: 'Mulishs', sans-serif;
+    font-size: 20px;
+    margin: 0;
+    position: absolute;
+    transition-duration: 0.3s;
+    /* font-weight: 600; */
+    color: var(--text-gold-b) !important;
+    /* margin-top: -30px; */
+    /* margin-top:2px; */
+
+}
+
+.formP .labelInput:hover{
+    cursor: pointer;
+
+}
+ .formP .form-control:focus {
+    outline:none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.formP{
+    position: relative;
+    margin-top: 30px;
+}
+
+.card-body .formP .form-control{
+    border-bottom: 2px solid var(--green-l);
+}
+
+.error{
+
+   color: red;
+}

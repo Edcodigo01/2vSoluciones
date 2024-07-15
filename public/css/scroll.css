@@ -1,0 +1,31 @@
+.containerScroll::-webkit-scrollbar {
+    width: 8px;     /* Tamaño del scroll en vertical */
+    height: 8px;    /* Tamaño del scroll en horizontal */
+    background: rgb(205, 192, 226);
+}
+
+@media (max-width: 470px) {
+    .containerScroll::-webkit-scrollbar {
+        width: 5px;
+        height: 5px;
+        background: rgb(205, 192, 226);
+    }
+
+}
+/* Ponemos un color de fondo y redondeamos las esquinas del thumb */
+.containerScroll::-webkit-scrollbar-thumb {
+    background: rgb(170, 107, 205);
+    border-radius: 5px;
+
+}
+
+/* Cambiamos el fondo y agregamos una sombra cuando esté en hover */
+.containerScroll::-webkit-scrollbar-thumb:hover {
+    background: rgb(165, 84, 210);
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+/* Cambiamos el fondo cuando esté en active */
+.containerScroll::-webkit-scrollbar-thumb:active {
+    background-color: #999999;
+}

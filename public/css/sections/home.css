@@ -1,0 +1,114 @@
+#section2{
+   background-image: url("../../images/default/servicios-empresariales.jpg");
+
+    /* height: 800px; */
+    background-position: bottom;
+    position: relative;
+}
+
+#section2 ul{
+   font-size: 26px;
+}
+
+#section4{
+   background-image: url("../../images/default/1528.jpg");
+   height: 450px;
+   background-position: bottom;
+   position: relative;
+   background-repeat: no-repeat;
+
+}
+
+#section5{
+   background-image: url("../../images/default/home/manosOk.jpg");
+   /* height: 600px; */
+   background-position: bottom;
+   position: relative;
+   background-repeat: no-repeat;
+
+}
+
+
+.icon2v{
+   margin: auto;
+   width: 160px;
+   height: 160px;
+   object-fit: cover;
+   /* border: solid 1px grey; */
+   display: block;
+}
+
+.icon2v.icon2v2{
+   width: 140px;
+   height: 140px;
+}
+
+.tuLogro img{
+   width: 130px;
+}
+#section2 ul{
+   font-size: 24px;
+}
+
+@media (max-width: 1200PX) {
+   #section2 ul{
+      font-size: 22px;
+   }
+   .icon2v{
+      width: 125px;
+      height: 125px;
+   }
+}
+
+@media (max-width: 992px) {
+   #section2 ul{
+      font-size: 20px;
+   }
+   .icon2v{
+      width: 110px;
+      height: 110px;
+   }
+   .icon2v.icon2v2{
+      width: 110px;
+      height: 110px;
+   }
+   .porque h6{
+      font-size: 16px !important;
+   }
+
+   .tuLogro img{
+      width: 100px;
+   }
+}
+
+@media (max-width: 576px) {
+   #section2 ul{
+      font-size: 18px;
+   }
+
+   .porque h6{
+      font-size: 14px !important;
+   }
+
+   .tuLogro img{
+      width: 80px;
+      margin-left: 10px;
+   }
+}
+
+@media (max-width: 350px) {
+
+
+   .icon2v.icon2v2{
+      width: 80px;
+      height: 80px;
+   }
+
+   .porque h6{
+      font-size: 13px !important;
+   }
+
+   .tuLogro img{
+      width: 60px;
+   }
+}

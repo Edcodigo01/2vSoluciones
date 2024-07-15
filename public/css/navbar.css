@@ -1,0 +1,250 @@
+.navP{
+   /* background: rgba(0, 0, 0, 0.15); */
+   height: 80px;
+   position: absolute;
+   z-index: 12;
+   top: 0;
+   left: 0;
+   right: 0;
+   border-bottom: 2px rgba(255, 255, 255, 0.27) solid;
+   background: linear-gradient(to bottom,rgba(255, 255, 255, 0.08),rgba(255, 255, 255, 0.20));
+}
+
+.zone-logo{
+   width: 10%;
+}
+
+.navP.navP2 .zone-links{
+   width: 90%;
+   margin-top:12px;
+}
+.navP .linkN{
+   text-shadow: 1px 1px 2px black;
+   color: white;
+}
+
+.navP .linkN.active{
+   color: var(--purple);
+}
+
+.navP .linkN:hover{
+   color: var(--purple-hover);
+   text-decoration: none;
+}
+
+.logo-n{
+   width: 110px;
+   margin-top: -22px;
+   /* height: 70px; */
+   /* position: absolute; */
+   /* margin-top: 5px; */
+   border-radius: 100%;
+}
+
+.containerNav{
+    width: 92%;
+    /* max-width: 1530px; */
+    margin: auto;
+}
+
+.linkN{
+   font-family: GothamPro;
+   font-size: 28px;
+   font-weight: 500;
+   margin-right: 25px;
+   color: white;
+   text-shadow: 1px 2px 2px black;
+}
+
+.navP.navP2 .linkN.active{
+   color: var(--purple);
+   text-shadow: 2px 2px 2px rgb(71, 71, 71) !important;
+}
+
+.navP.navP2 .linkN:hover{
+   color: var(--purple-hover);
+   text-shadow: 2px 2px 2px rgb(71, 71, 71) !important;
+   text-decoration: none;
+
+
+}
+/* color: var(--green); */
+.navP .linksN{
+   /* padding-top: 12px; */
+   text-align: center;
+}
+.navP.navP2 .logo-n{
+   margin-top: -17px;
+   width: 95px;
+
+}
+
+/* nav 2 */
+.navP.navP2{
+   height: 70px;
+   /* background: rgba(255, 255, 255, 0.95); */
+   background: linear-gradient(to bottom,rgba(255, 255, 255, 0.70),rgba(255, 255, 255, 0.90));
+   position: fixed;
+   top: -70px;
+   left: 0;
+   width: 100%;
+   border-bottom:solid 1px var(--purple-l);
+   transition-duration: 0.3s;
+}
+
+.navP.navP2.open{
+   top: 0;
+   position: fixed;
+
+}
+
+.navP.navP2 .linkN{
+   color: black;
+   text-shadow: none !important;
+}
+/* ---------------- */
+/* BANNER */
+#imgP{
+    background-image: url("../images/default/home/banner.jpg");
+    height: 750px;
+    background-position: bottom;
+    position: relative;
+}
+
+.text-img-p{
+   position: absolute;
+   width: 100%;
+   margin: auto;
+   top:24%;
+}
+
+.text-img-p .text{
+   max-width: 900px;
+   margin: auto;
+}
+
+.btn-main{
+   color: white;
+   margin-top: -9px;
+   margin-right: 10px;
+   display: none;
+}
+/* menu */
+.main{
+   width: 265px;
+   position: fixed;
+   top:70px;
+   right: 10px;
+   z-index: 21;
+   background: rgba(255, 255, 255, 0.92);
+   border-top: grey 2px solid;
+   right: -285px;
+   transition-duration: 1s;
+}
+
+.main.open{
+   right: 10px !important;
+}
+
+.main a{
+   padding:5px 15px 5px 15px;
+   border-radius: 2px white;
+   color:black;
+   font-size: 22px;
+   display: block;
+   text-align: center;
+   border-bottom: grey 1px solid;
+   border-top: grey 1px solid;
+}
+
+.main a:hover{
+   color: var(--green);
+}
+
+.main a.active{
+   color: var(--purple);
+}
+.main .content{
+   border-top: grey 1px solid;
+}
+
+/*  */
+@media (max-width: 1400PX) {
+   .navP .linkN, .navP.navP2 .linkN {
+      font-size: 24px;
+      margin-right: 15px;
+   }
+}
+
+@media (max-width: 1200PX) {
+   .navP .linkN, .navP.navP2 .linkN {
+      font-size: 23px;
+      margin-right: 5px;
+
+   }
+
+    #imgP{
+        height: 600px;
+    }
+   /* .logo-n{
+      margin-top: -5px;
+      width: 95px;
+   } */
+
+   .containerNav{
+       width: 94% !important;
+       /* max-width: 1530px; */
+       margin: auto;
+   }
+
+   .logo-n{
+      width: 90px;
+      margin-top: -10px;
+   }
+}
+
+@media (max-width: 992px) {
+   .logo-n{
+      width: 80px;
+      margin-top: -14px;
+   }
+   .navP.navP2 .logo-n{
+      margin-top: -14px;
+      width: 75px;
+
+   }
+   .navP.navP2{
+      height: 56px;
+   }
+   .navP{
+      height: 60px;
+   }
+   .navP .linkN, .navP.navP2 .linkN {
+      display: none;
+   }
+   .btn-main{
+      display: block;
+   }
+
+}
+
+@media (max-width: 768px) {
+   .containerNav{
+      width: 90%;
+   }
+
+}
+
+@media (max-width: 576px) {
+   .text-img-p{
+         top: 12%;
+   }
+
+}
+
+@media (max-width: 300px) {
+   .text-img-p{
+         top: 12%;
+   }
+
+}

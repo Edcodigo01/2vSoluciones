@@ -1,0 +1,15 @@
+<h1 class="">Esrta es la vista bienvenida</h1>
+<h1 class="">Esrta es la vista bienvenida</h1>
+<h1 class="">Esrta es la vista bienvenida</h1>
+<h1 class="">Esrta es la vista bienvenida</h1>
+<h1 class="">Esrta es la vista bienvenida</h1>
+<h1 class="">Esrta es la vista bienvenida</h1>
+<h1 class="">Esrta es la vista bienvenida</h1>
+MAIL_MAILER=smtp
+MAIL_HOST=smtp.mailtrap.io
+MAIL_PORT=2525
+MAIL_USERNAME=null
+MAIL_PASSWORD=null
+MAIL_ENCRYPTION=null
+MAIL_FROM_ADDRESS=null
+MAIL_FROM_NAME="${APP_NAME}"
