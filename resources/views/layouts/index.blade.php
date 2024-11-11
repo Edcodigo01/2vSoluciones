@@ -1,10 +1,10 @@
 {{-- <!DOCTYPE html>
 <html lang="es">
-<head>
+<header>
     <link rel="stylesheet" href="{{asset("public/libraries/css/template.css")}}">
   @include("layouts.head")
   @yield("styles")
-</head>
+</header>
 
 <body style="background:rgba(246, 255, 240, 1)">
         @include("layouts.navbar")
